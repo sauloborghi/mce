@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar/>
-    <Carousel {slide}/>
+    <Carousel/>
   </div>
 </template>
 
@@ -14,8 +14,6 @@ export default {
   components: {
     Navbar,
     Carousel
-  },
-  methods:
-  slide
+  }
 }
 </script>

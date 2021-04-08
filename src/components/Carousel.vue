@@ -50,11 +50,6 @@
         </p>
       </b-carousel-slide>
     </b-carousel>
-
-    <p class="mt-4">
-      Slide #: {{ slide }}<br>
-      Sliding: {{ sliding }}
-    </p>
   </div>
 </template>
 
@@ -64,14 +59,6 @@
       return {
         slide: 0,
         sliding: null
-      }
-    },
-    methods: {
-      onSlideStart(slide) {
-        this.sliding = true
-      },
-      onSlideEnd(slide) {
-        this.sliding = false
       }
     }
   }
