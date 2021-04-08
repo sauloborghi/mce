@@ -1,48 +1,78 @@
 <template>
-  <section class="carousel">
-            <div class="owl-carousel owl-theme owl-home">
-                <div class="item carousel-image" style="background-image: url('./assets/logo.jpg');">
-                    <div class="overlay"></div>
-                    <div class="container">
-                        <div class="carousel-content">
-                            <h1 class="title-carousel text-center">
-                                Meu Centro Espírita
-                            </h1>
-                            <p class="subtitle-carousel text-center">
-                                Conheça os Centros Espíritas mais próximos e assista ás suas palestras online.
-                            </p>
-                            <div class="btn-carousel-wrapper">
-                                <button class="btn btn-1 btn-carousel">
-                                    Saiba Mais
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item carousel-image" style="background-image: url('../assets/logo.jpg');">
-                    <div class="overlay"></div>
-                    <div class="container">
-                        <div class="carousel-content">
-                            <h1 class="title-carousel text-center">
-                                Baixe o nosso App!
-                            </h1>
-                            <p class="subtitle-carousel text-center">
-                                Fique por dentro dos cronogramas de palestras e receba as nossas notificações.
-                            </p>
-                            <div class="btn-carousel-wrapper">
-                                <button class="btn btn-1 btn-carousel">
-                                    Baixar o App
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <div>
+    <b-carousel
+      id="carousel-1"
+      v-model="slide"
+      :interval="4000"
+      controls
+      indicators
+      background="#ababab"
+      img-width="1024"
+      img-height="480"
+      style="text-shadow: 1px 1px 2px #333;"
+      @sliding-start="onSlideStart"
+      @sliding-end="onSlideEnd"
+    >
+      <!-- Text slides with image -->
+      <b-carousel-slide
+        caption="First slide"
+        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
+        img-src="https://picsum.photos/1024/480/?image=52"
+      ></b-carousel-slide>
+
+      <!-- Slides with custom text -->
+      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
+        <h1>Hello world!</h1>
+      </b-carousel-slide>
+
+      <!-- Slides with image only -->
+      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"></b-carousel-slide>
+
+      <!-- Slides with img slot -->
+      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
+      <b-carousel-slide>
+        <template #img>
+          <img
+            class="d-block img-fluid w-100"
+            width="1024"
+            height="480"
+            src="https://picsum.photos/1024/480/?image=55"
+            alt="image slot"
+          >
+        </template>
+      </b-carousel-slide>
+
+      <!-- Slide with blank fluid image to maintain slide aspect ratio -->
+      <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
+          a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
+        </p>
+      </b-carousel-slide>
+    </b-carousel>
+
+    <p class="mt-4">
+      Slide #: {{ slide }}<br>
+      Sliding: {{ sliding }}
+    </p>
+  </div>
 </template>
 
 <script>
-export default {
-  name: 'Carousel',
-}
+  export default {
+    data() {
+      return {
+        slide: 0,
+        sliding: null
+      }
+    },
+    methods: {
+      onSlideStart(slide) {
+        this.sliding = true
+      },
+      onSlideEnd(slide) {
+        this.sliding = false
+      }
+    }
+  }
 </script>
