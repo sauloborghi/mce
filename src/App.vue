@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar/>
-    <Carousel/>
+    <Carousel {slide}/>
   </div>
 </template>
 
