@@ -73,6 +73,7 @@
       onSlideEnd(slide) {
         this.sliding = false
       }
-    }
+    },
+    name: 'Carousel',
   }
 </script>
