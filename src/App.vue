@@ -14,6 +14,8 @@ export default {
   components: {
     Navbar,
     Carousel
-  }
+  },
+  methods:
+  slide
 }
 </script>
