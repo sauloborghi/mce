@@ -60,7 +60,6 @@
 
 <script>
   export default {
-     name: 'Navbar',
     data() {
       return {
         slide: 0,
@@ -76,4 +75,10 @@
       }
     }
   }
+</script>
+
+<script>
+export default {
+  name: 'Carousel',
+}
 </script>
