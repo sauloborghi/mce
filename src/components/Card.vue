@@ -33,6 +33,15 @@
 </div>
 </template>
 
+<style scoped>
+  .card {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  </style>
+
 <script>
 export default {
   name: 'Card',
