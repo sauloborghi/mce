@@ -1,6 +1,9 @@
 <template>
 <div class="card position-relative">
+
   <div class="mb-3">
+    <h3 class="center">VOCÊ TEM DÚVIDAS?</h3>
+    <h1 class="center">FALE CONOSCO!</h1>
   <label for="exampleFormControlInput1" class="form-label">Nome</label>
   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="José Silva">
   <br>
@@ -30,6 +33,9 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
+  }
+  .center{
+    text-align: center;
   }
   </style>
   
