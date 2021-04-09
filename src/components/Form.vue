@@ -1,18 +1,20 @@
 <template>
 <div class="card position-relative">
   <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <label for="exampleFormControlInput1" class="form-label">Nome</label>
+  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="José Silva">
   <br>
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <label for="exampleFormControlInput1" class="form-label">Email</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="jose_silva@gmail.com">
   <br>
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <label for="exampleFormControlInput1" class="form-label">Assunto</label>
+  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Problema no cadastro">
   <br>
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  <button type="submit" class="btn btn-success mb-3 bu" right>Enviar</button>
+  <label for="exampleFormControlInput1" class="form-label">Telefone</label>
+  <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="(99)9999-9999">
+  <center>
+  <button type="submit" class="btn btn-success mb-3">Enviar</button>
+  </center>
 </div>
 </template>
 
@@ -28,9 +30,6 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
-  }
-  .bu{
-      padding-left: 20px;
   }
   </style>
   
