@@ -2,6 +2,7 @@
   <div id="app">
     <Navbar/>
     <Carousel/>
+    <Card/>
   </div>
 </template>
 
