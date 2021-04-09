@@ -17,7 +17,7 @@
       <b-carousel-slide
         caption="Meu Centro Espírita"
         text="Conheça os Centros Espíritas mais próximos e assista ás suas palestras online."
-        img-src="https://www.freewebheaders.com/wp-content/gallery/religion-size-1024x300/the-life-of-jesus-christ-website-header_size-1024x300.jpg"
+        img-src="https://i.picsum.photos/id/459/1024/300.jpg?hmac=tTxQN2ZQ1psh4y-rrU5cfD82bcTRAhQ26yyCg32t2UU"
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->
