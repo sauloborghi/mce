@@ -21,12 +21,12 @@
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->
-      <b-carousel-slide img-src="https://www.freewebheaders.com/wp-content/gallery/planets-galaxies/earth-space-horizon-header.jpg">
+      <b-carousel-slide img-src="https://www.freewebheaders.com/wp-content/gallery/spacecrafts/space-shuttle-header-8712-1024x300.jpg">
         <h1>Hello world!</h1>
       </b-carousel-slide>
 
       <!-- Slides with image only -->
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"></b-carousel-slide>
+      <b-carousel-slide img-src="https://www.freewebheaders.com/wp-content/gallery/planets-galaxies/space-universe-header-8421-1024x300.jpg"></b-carousel-slide>
 
       <!-- Slides with img slot -->
       <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
@@ -40,14 +40,6 @@
             alt="image slot"
           >
         </template>
-      </b-carousel-slide>
-
-      <!-- Slide with blank fluid image to maintain slide aspect ratio -->
-      <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-          a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-        </p>
       </b-carousel-slide>
     </b-carousel>
   </div>
