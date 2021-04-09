@@ -39,16 +39,6 @@
 </div>
 </template>
 
-<style scoped>
-  .dcard {
-    margin-top: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 10px;
-  }
-
-  </style>
-
 <script>
 export default {
   name: 'Card',
