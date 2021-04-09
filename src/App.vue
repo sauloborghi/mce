@@ -4,6 +4,7 @@
     <Carousel/>
     <Card/>
     <Form/>
+    <Rodape/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Navbar from './components/Navbar.vue'
 import Carousel from './components/Carousel.vue'
 import Card from './components/Card.vue'
 import Form from './components/Form.vue'
+import Rodape from './components/Rodape.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     Navbar,
     Carousel,
     Card,
-    Form
+    Form,
+    Rodape
   }
 }
 </script>
