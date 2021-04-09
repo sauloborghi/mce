@@ -21,12 +21,12 @@
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->
-      <b-carousel-slide img-src="https://www.freewebheaders.com/wp-content/gallery/spacecrafts/space-shuttle-header-8712-1024x300.jpg">
+      <b-carousel-slide img-src="https://usercontent.one/wp/www.giac-ltd.co.uk/wp-content/uploads/2017/06/contact-us-banner-1024x300.png">
         <h1>Hello world!</h1>
       </b-carousel-slide>
 
       <!-- Slides with image only -->
-      <b-carousel-slide img-src="https://www.freewebheaders.com/wp-content/gallery/planets-galaxies/space-universe-header-8421-1024x300.jpg"></b-carousel-slide>
+      <b-carousel-slide img-src="http://parksadventure.com/wp-content/uploads/2017/10/sunsets-header-2074-1024x300-2.jpg"></b-carousel-slide>
 
       <!-- Slides with img slot -->
       <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
