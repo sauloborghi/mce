@@ -15,18 +15,23 @@
     >
       <!-- Text slides with image -->
       <b-carousel-slide
-        caption="First slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="http://parksadventure.com/wp-content/uploads/2017/10/sunsets-header-2074-1024x300-2.jpg"
+        caption="Meu Centro Espírita"
+        text="Conheça os Centros Espíritas mais próximos e assista ás suas palestras online."
+        img-src="https://www.freewebheaders.com/wp-content/gallery/religion-size-1024x300/the-life-of-jesus-christ-website-header_size-1024x300.jpg"
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->
-      <b-carousel-slide img-src="https://usercontent.one/wp/www.giac-ltd.co.uk/wp-content/uploads/2017/06/contact-us-banner-1024x300.png">
-        <h1>Hello world!</h1>
+      <b-carousel-slide
+      caption="Baixe o nosso App!"
+      text="Conheça os Centros Espíritas mais próximos e assista ás suas palestras online."
+      img-src="https://usercontent.one/wp/www.giac-ltd.co.uk/wp-content/uploads/2017/06/contact-us-banner-1024x300.png">
       </b-carousel-slide>
 
       <!-- Slides with image only -->
-      <b-carousel-slide img-src="http://parksadventure.com/wp-content/uploads/2017/10/sunsets-header-2074-1024x300-2.jpg"></b-carousel-slide>
+      <b-carousel-slide
+      caption="Conheça outros centros espíritas!"
+      text="Conheça os Centros Espíritas mais próximos e assista ás suas palestras online."
+      img-src="http://parksadventure.com/wp-content/uploads/2017/10/sunsets-header-2074-1024x300-2.jpg"></b-carousel-slide>
 
       <!-- Slides with img slot -->
       <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
