@@ -21,7 +21,7 @@
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
+      <b-carousel-slide img-src="https://www.freewebheaders.com/wp-content/gallery/planets-galaxies/earth-space-horizon-header.jpg">
         <h1>Hello world!</h1>
       </b-carousel-slide>
 
@@ -36,7 +36,7 @@
             class="d-block img-fluid w-100"
             width="1024"
             height="480"
-            src="https://picsum.photos/1024/480/?image=55"
+            src="https://usercontent.one/wp/www.giac-ltd.co.uk/wp-content/uploads/2017/06/contact-us-banner-1024x300.png"
             alt="image slot"
           >
         </template>
