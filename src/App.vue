@@ -18,7 +18,8 @@ export default {
   components: {
     Navbar,
     Carousel,
-    Card
+    Card,
+    Form
   }
 }
 </script>
