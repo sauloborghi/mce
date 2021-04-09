@@ -1,7 +1,5 @@
 <template>
   <div>
-    <h3 class="center">CENTROS ESPÍRITAS</h3>
-    <h1 class="center">MAIS PRÓXIMOS</h1>
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -51,12 +49,6 @@
     </b-carousel>
   </div>
 </template>
-
-<style scoped>
-  .center{
-    text-align: center;
-  }
-  </style>
 
 <script>
   export default {
