@@ -17,7 +17,7 @@
       <b-carousel-slide
         caption="First slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
+        img-src="http://parksadventure.com/wp-content/uploads/2017/10/sunsets-header-2074-1024x300-2.jpg"
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->
