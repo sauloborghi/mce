@@ -1,40 +1,36 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+  <div>
+  <b-card-group deck>
+    <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+      <b-card-text>
+        This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.
+      </b-card-text>
+      <template #footer>
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </template>
+    </b-card>
+
+    <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+      <b-card-text>
+        This card has supporting text below as a natural lead-in to additional content.
+      </b-card-text>
+      <template #footer>
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </template>
+    </b-card>
+
+    <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+      <b-card-text>
+        This is a wider card with supporting text below as a natural lead-in to additional content.
+        This card has even longer content than the first to show that equal height action.
+      </b-card-text>
+      <template #footer>
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </template>
+    </b-card>
+  </b-card-group>
+</div>
 </template>
 
 <script>
