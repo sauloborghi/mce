@@ -1,6 +1,6 @@
 <template>
   <div class="dcard">
-  <b-card-group deck>
+  <b-card-group>
     <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
       <b-card-text>
         This is a wider card with supporting text below as a natural lead-in to additional content.
