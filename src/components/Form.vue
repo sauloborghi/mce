@@ -2,8 +2,9 @@
 <div class="card position-relative">
 
   <div class="mb-3">
-    <h3 class="center">VOCÊ TEM DÚVIDAS?</h3>
-    <h1 class="center">FALE CONOSCO!</h1>
+  <h3 class="center">VOCÊ TEM DÚVIDAS?</h3>
+  <h1 class="center">FALE CONOSCO!</h1>
+  <hr>
   <label for="exampleFormControlInput1" class="form-label">Nome</label>
   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="José Silva">
   <br>
