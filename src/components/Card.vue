@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="card">
   <b-card-group deck>
     <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
       <b-card-text>
@@ -32,6 +32,15 @@
   </b-card-group>
 </div>
 </template>
+
+<style scoped>
+  .card {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+</style>
 
 <script>
 export default {
