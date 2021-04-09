@@ -1,7 +1,7 @@
 <template>
   <div>
   <b-card-group deck>
-    <b-card title="Centro Espírita Fé E Amor" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+    <b-card title="Centro Espírita Fé E Amor" img-src="https://i.picsum.photos/id/1057/300/300.jpg?hmac=rS0BsEGnkKaB8HQu1LvZX2kjbVvPspsRBKJ7lSx_NXM" img-alt="Image" img-top>
       <b-card-text>
         This is a wider card with supporting text below as a natural lead-in to additional content.
         This content is a little bit longer.
@@ -11,7 +11,7 @@
       </template>
     </b-card>
 
-    <b-card title="Centro Espírita Taquaritinga" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+    <b-card title="Centro Espírita Taquaritinga" img-src="https://i.picsum.photos/id/1057/300/300.jpg?hmac=rS0BsEGnkKaB8HQu1LvZX2kjbVvPspsRBKJ7lSx_NXM" img-alt="Image" img-top>
       <b-card-text>
         This card has supporting text below as a natural lead-in to additional content.
       </b-card-text>
@@ -20,7 +20,7 @@
       </template>
     </b-card>
 
-    <b-card title="Centro Espírita Araraquara" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
+    <b-card title="Centro Espírita Araraquara" img-src="https://i.picsum.photos/id/1057/300/300.jpg?hmac=rS0BsEGnkKaB8HQu1LvZX2kjbVvPspsRBKJ7lSx_NXM" img-alt="Image" img-top>
       <b-card-text>
         This is a wider card with supporting text below as a natural lead-in to additional content.
         This card has even longer content than the first to show that equal height action.
