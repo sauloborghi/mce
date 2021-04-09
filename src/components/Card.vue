@@ -1,7 +1,9 @@
 <template>
   <div>
+    <br>
     <h3 class="center">CENTROS ESPÍRITAS</h3>
     <h1 class="center">MAIS PRÓXIMOS</h1>
+    <hr>
   <b-card-group deck>
     <b-card title="Centro Espírita Fé E Amor" img-src="https://i.picsum.photos/id/1057/300/300.jpg?hmac=rS0BsEGnkKaB8HQu1LvZX2kjbVvPspsRBKJ7lSx_NXM" img-alt="Image" img-top>
       <b-card-text>
@@ -38,6 +40,10 @@
 <style scoped>
   .center{
     text-align: center;
+  }
+  .hr{
+    margin-left: 15px;
+    margin-right: 15px;
   }
   </style>
 
