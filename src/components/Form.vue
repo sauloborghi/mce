@@ -12,7 +12,7 @@
   <br>
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  <button type="submit" class="btn btn-success mb-3">Enviar</button>
+  <button type="submit" class="btn btn-success mb-3 position-absolute bottom-0 end-0 ">Enviar</button>
 </div>
 </template>
 
