@@ -1,6 +1,6 @@
 <template>
   <div class="dcard">
-  <b-card-group class="card">
+  <b-card-group deck>
     <b-card title="Title" img-src="https://picsum.photos/300/300/?image=41" img-alt="Image" img-top>
       <b-card-text>
         This is a wider card with supporting text below as a natural lead-in to additional content.
@@ -39,10 +39,6 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-  }
-  .card {
-      display:flex;
-      flex-flow:row wrap;
   }
 
   </style>
