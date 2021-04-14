@@ -19,6 +19,7 @@
   <center>
   <button type="submit" class="btn btn-success mb-3">Enviar</button>
   </center>
+  </div>
 </div>
 </template>
 

@@ -7,10 +7,10 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#">Home</b-nav-item>
-        <b-nav-item href="#">Palestras</b-nav-item>
-        <b-nav-item href="#">Sobre</b-nav-item>
-        <b-nav-item href="#">Contato</b-nav-item>
+        <b-nav-item to="/">Home</b-nav-item>
+        <b-nav-item to="/palestra">Palestras</b-nav-item>
+        <b-nav-item to="/about">Sobre</b-nav-item>
+        <b-nav-item to="/contato">Contato</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
@@ -21,8 +21,8 @@
         </b-nav-form>
 
         <b-nav-item-dropdown text="Lang" right>
-          <b-dropdown-item href="#">EN</b-dropdown-item>
           <b-dropdown-item href="#">BR</b-dropdown-item>
+          <b-dropdown-item href="#">EN</b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
     </b-collapse>
