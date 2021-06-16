@@ -5,32 +5,30 @@
     <h1 class="center">MAIS PRÓXIMOS</h1>
     <hr class="hr">
   <b-card-group deck>
-    <b-card title="Centro Espírita Fé E Amor" img-src="https://i.picsum.photos/id/1057/300/300.jpg?hmac=rS0BsEGnkKaB8HQu1LvZX2kjbVvPspsRBKJ7lSx_NXM" img-alt="Image" img-top>
+    <b-card title="Taquaritinga já tem mais de 10% da população vacinada contra COVID-19" img-src="https://sauloborghi.github.io/ProjetoIII/assets/dist/img/roundel_stat3.png" img-alt="Image" img-top>
       <b-card-text>
-        This is a wider card with supporting text below as a natural lead-in to additional content.
-        This content is a little bit longer.
+        Mesmo com a grande dificuldade na obtenção de vacinas contra a COVID-19 neste momento que estamos vivendo, com o início da vacinação de idosos com 70 anos ou mais nesta terça-feira (23), Taquaritinga alcançou a marca de 10,17% de pessoas vacinadas.
       </b-card-text>
       <template #footer>
-        <small class="text-muted">01/04/2021</small>
+        <small class="text-muted">Publicado a 3 minutos atrás</small>
       </template>
     </b-card>
 
-    <b-card title="Centro Espírita Taquaritinga" img-src="https://i.picsum.photos/id/1057/300/300.jpg?hmac=rS0BsEGnkKaB8HQu1LvZX2kjbVvPspsRBKJ7lSx_NXM" img-alt="Image" img-top>
+    <b-card title="Vacinação do povo de Taquaritinga" img-src="https://www.socialismocriativo.com.br/wp-content/uploads/2021/01/coronavac-1.jpg" img-alt="Image" img-top>
       <b-card-text>
-        This card has supporting text below as a natural lead-in to additional content.
+        A vacinação, decorrente da ordem cronológica estabelecida pelo Estado de São Paulo (SP) chegou hoje, no dia 3/25/2021. A idade requisitada para hoje era de 69 nove anos, descendo cada vez mais para chegar até a população mais jovem.
       </b-card-text>
       <template #footer>
-        <small class="text-muted">01/04/2021</small>
+        <small class="text-muted">Publicado a 16 horas atrás</small>
       </template>
     </b-card>
 
-    <b-card title="Centro Espírita Araraquara" img-src="https://i.picsum.photos/id/1057/300/300.jpg?hmac=rS0BsEGnkKaB8HQu1LvZX2kjbVvPspsRBKJ7lSx_NXM" img-alt="Image" img-top>
+    <b-card title="Centro Espírita Araraquara" img-src="https://www.socialismocriativo.com.br/wp-content/uploads/2021/01/coronavac-1.jpg" img-alt="Image" img-top>
       <b-card-text>
-        This is a wider card with supporting text below as a natural lead-in to additional content.
-        This card has even longer content than the first to show that equal height action.
+        Mesmo com a grande dificuldade na obtenção de vacinas contra a COVID-19 neste momento que estamos vivendo, com o início da vacinação de idosos com 50 anos ou mais nesta quarta-feira (16), Taquaritinga alcançou a marca de 25,17% de pessoas vacinadas.
       </b-card-text>
       <template #footer>
-        <small class="text-muted">01/04/2021</small>
+        <small class="text-muted">Publicado a 23 horas atrás</small>
       </template>
     </b-card>
   </b-card-group>

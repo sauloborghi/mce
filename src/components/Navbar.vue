@@ -1,14 +1,14 @@
 <template>
   <div>
   <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand href="#">Meu Centro Espírita</b-navbar-brand>
+    <b-navbar-brand href="#">Portal Saúde</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
         <b-nav-item to="/">Home</b-nav-item>
-        <b-nav-item to="/palestra">Palestras</b-nav-item>
+        <b-nav-item to="/palestra">Hospitais</b-nav-item>
         <b-nav-item to="/about">Sobre</b-nav-item>
         <b-nav-item to="/contato">Contato</b-nav-item>
       </b-navbar-nav>

@@ -15,37 +15,24 @@
     >
       <!-- Text slides with image -->
       <b-carousel-slide
-        caption="Meu Centro Espírita"
-        text="Conheça os Centros Espíritas mais próximos e assista ás suas palestras online."
-        img-src="https://i.picsum.photos/id/459/1024/300.jpg?hmac=tTxQN2ZQ1psh4y-rrU5cfD82bcTRAhQ26yyCg32t2UU"
+        caption="Dia Mundial da Saúde 2021: Saúde para todos"
+        text="O Dia Mundial da Saúde é comemorado no dia 7 de abril. A data foi criada em 1950 e é O objetivo da data é garantir o melhor nível de saúde para as pessoas em todo o mundo."
+        img-src="https://sauloborghi.github.io/ProjetoIII/assets/dist/img/Banner/Banner1.jpeg"
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->
       <b-carousel-slide
-      caption="Baixe o nosso App!"
-      text="Conheça os Centros Espíritas mais próximos e assista ás suas palestras online."
-      img-src="https://usercontent.one/wp/www.giac-ltd.co.uk/wp-content/uploads/2017/06/contact-us-banner-1024x300.png">
+      caption="Taquaritinga começa a vacinação do COVID-19"
+      text="Taquaritinga começa a vacinação do COVID-19 nesse mês de março em 2021"
+      img-src="https://sauloborghi.github.io/ProjetoIII/assets/dist/img/Banner/Banner2.jpeg">
       </b-carousel-slide>
 
       <!-- Slides with image only -->
       <b-carousel-slide
-      caption="Conheça outros centros espíritas!"
-      text="Conheça os Centros Espíritas mais próximos e assista ás suas palestras online."
-      img-src="http://parksadventure.com/wp-content/uploads/2017/10/sunsets-header-2074-1024x300-2.jpg"></b-carousel-slide>
-
-      <!-- Slides with img slot -->
-      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
-      <b-carousel-slide>
-        <template #img>
-          <img
-            class="d-block img-fluid w-100"
-            width="1024"
-            height="480"
-            src="https://usercontent.one/wp/www.giac-ltd.co.uk/wp-content/uploads/2017/06/contact-us-banner-1024x300.png"
-            alt="image slot"
-          >
-        </template>
-      </b-carousel-slide>
+      caption="Butantan"
+      text="Butantan entrega mais 2,2 milhões de doses de vacina CoronaVac"
+      img-src="https://sauloborghi.github.io/ProjetoIII/assets/dist/img/Banner/Banner3.jpeg"></b-carousel-slide>
+    
     </b-carousel>
   </div>
 </template>
